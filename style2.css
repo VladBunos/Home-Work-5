@@ -1,0 +1,81 @@
+.box1 {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circ {
+  width: 33%;
+  height: 33%;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.tl {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.tr {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.bl {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+.br {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.boxblue {
+  width: 67%;
+  height: 67%;
+  background-color: blue;
+  z-index: 100;
+}
+
+.boxyellow {
+  width: 40%;
+  height: 40%;
+  background-color: yellow;
+  border-radius: 20%;
+  position: absolute;
+  z-index: 120;
+}
+
+.tr:hover {
+  background-color: purple;
+  z-index: 1000;
+}
+
+.tl:hover {
+  background-color: black;
+  z-index: 1000;
+}
+
+.bl:hover {
+  background-color: sienna;
+  z-index: 1000;
+}
+
+.br:hover {
+  background-color: lawngreen;
+  z-index: 1000;
+}
+
+.boxblue:hover {
+  background-color: rgb(74, 26, 105);
+  z-index: 130;
+}
